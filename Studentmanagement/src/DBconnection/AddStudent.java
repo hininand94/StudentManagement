@@ -8,7 +8,7 @@ public class AddStudent {
         try (Connection con = DBconnection.getConnection()) {
             System.out.print("Name: ");
             String name = sc.nextLine();
-            System.out.print("Age1:");
+            System.out.print("Age:");
             int age = Integer.parseInt(sc.nextLine());
             System.out.print("Course: ");
             String course = sc.nextLine();
